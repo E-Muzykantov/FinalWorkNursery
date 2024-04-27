@@ -38,8 +38,14 @@ sudo wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64
 sudo dpkg -i docker-ce-cli_20.10.133-0ubuntu-jammy_amd64.deb
 sudo dpkg -r docker-ce-cli
 ```
+6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
+животные и вьючные животные, в составы которых в случае домашних
+животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
+войдут: Лошади, верблюды и ослы).
 
-7. В подключенном MySQL репозитории создать базу данных “Друзья
+![Nursery](https://github.com/E-Muzykantov/FinalWorkNursery/assets/124204843/e23eddf6-d493-467b-8425-a39e7351dd97)
+
+8. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
 ```
 CREATE DATABASE Human_friends;
