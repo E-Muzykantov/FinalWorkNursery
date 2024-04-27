@@ -149,10 +149,10 @@ CREATE TABLE horses
     Foreign KEY (Genus_id) REFERENCES packed_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 INSERT INTO horses (Name, Birthday, Commands, Genus_id)
-VALUES ('Гром', '02.03.20192', 'бегом, шагом', 1),
-('Буцефал', '2017-03-12', "бегом, шагом, галопом", 1),  
+VALUES ('Гром', '02.03.2019', 'бегом, шагом', 1),
+('Буцефал', '02.03.2022', "бегом, шагом, галопом", 1),  
 ('Молния', '02.03.2020', "бегом, шагом,", 1), 
-('Ракета', '02.03.2021', "бегом, шагом, хоп", 1);
+('Ракета', '02.03.2021', "бегом, шагом, рысью", 1);
 
 CREATE TABLE donkeys 
 (       
